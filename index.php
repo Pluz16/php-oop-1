@@ -29,3 +29,10 @@ class Movie {
 $movie1 = new Movie("The Godfather", "Francis Ford Coppola", 1972, 9.2);
 $movie2 = new Movie("The Shawshank Redemption", "Frank Darabont", 1994, 9.3);
 
+
+// Stampa a schermo delle informazioni dei due film
+echo "<h1>Movie 1:</h1>";
+$movie1->printInfo();
+
+echo "<h1>Movie 2:</h1>";
+$movie2->printInfo();
