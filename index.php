@@ -23,3 +23,9 @@ class Movie {
         echo "Rating: {$this->rating} <br>";
     }
 }
+
+
+// Creazione di due oggetti della classe Movie
+$movie1 = new Movie("The Godfather", "Francis Ford Coppola", 1972, 9.2);
+$movie2 = new Movie("The Shawshank Redemption", "Frank Darabont", 1994, 9.3);
+
